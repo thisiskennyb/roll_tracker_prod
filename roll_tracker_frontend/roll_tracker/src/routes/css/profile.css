@@ -1,0 +1,65 @@
+.profile-container {
+    margin-left: 180px;
+    margin-top: 18px;
+  }
+
+.collection-display-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 315px;
+}
+
+.collection-display-item {
+    margin-bottom: 20px;
+}
+
+.stats-container {
+    display: flex;
+
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.stats-item {
+    width: 80px;
+    border-radius: 15px;
+    border: 10px solid;
+    color: #25272c;
+    padding: 20px;
+    color: #25272c;
+    border-color: #25272c;
+    width: 300px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    background-color: #67bace;
+
+
+}
+
+.num-value {
+    width: 80px;
+    border-radius: 15px;
+    border: 10px solid;
+    color: #25272c;
+    padding: 20px;
+    color: #25272c;
+    border-color: #25272c;
+}
+
+.stats-title-container {
+    display: flex;
+   
+    margin-top: 60px;
+    justify-content: space-evenly;
+    margin-left: 90px
+}
+
+.stats-title-container-item {
+   
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.stats-item-two {
+    margin-left: 70px;
+}

@@ -1,0 +1,522 @@
+[
+    {
+        "model": "coin.coinpoints",
+        "pk": 1,
+        "fields": {
+            "type": "Flying Eagle Cent (1856-58)",
+            "point_value": "100pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 2,
+        "fields": {
+            "type": "Indian Head Cent (1859-1909)",
+            "point_value": "50pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 3,
+        "fields": {
+            "type": "Wheat Cent (1909-1939)",
+            "point_value": "10pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 4,
+        "fields": {
+            "type": "Whet Cent (1940-1958)",
+            "point_value": "5pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 5,
+        "fields": {
+            "type": "Key Dates",
+            "point_value": "150pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 6,
+        "fields": {
+            "type": "Semi Key Dates",
+            "point_value": "75pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 7,
+        "fields": {
+            "type": "Lincoln Bicentennial (2009)",
+            "point_value": "1pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 8,
+        "fields": {
+            "type": "Proof Cents (Most years with 'S' mint mark)",
+            "point_value": "10pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 9,
+        "fields": {
+            "type": "Wheat Cent Doubled Die",
+            "point_value": "300pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 10,
+        "fields": {
+            "type": "Lincoln Cent Doubled Die",
+            "point_value": "200pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 11,
+        "fields": {
+            "type": "Shield Cent Doubled Die",
+            "point_value": "50pts",
+            "category": true,
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 12,
+        "fields": {
+            "type": "1909-S",
+            "point_value": "150",
+            "category": "keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 13,
+        "fields": {
+            "type": "1909-S VDB",
+            "point_value": "1000",
+            "category": "keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 14,
+        "fields": {
+            "type": "1914-D",
+            "point_value": "150",
+            "category": "keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 15,
+        "fields": {
+            "type": "1931-S",
+            "point_value": "150",
+            "category": "keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 16,
+        "fields": {
+            "type": "2019-W",
+            "point_value": "150",
+            "category": "keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 18,
+        "fields": {
+            "type": "1910-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 19,
+        "fields": {
+            "type": "1911-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 20,
+        "fields": {
+            "type": "1912-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 21,
+        "fields": {
+            "type": "1913-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 22,
+        "fields": {
+            "type": "1914-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 23,
+        "fields": {
+            "type": "1915-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 24,
+        "fields": {
+            "type": "1922-D",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 25,
+        "fields": {
+            "type": "1924-D",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 26,
+        "fields": {
+            "type": "1926-S",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 27,
+        "fields": {
+            "type": "1931-D",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 28,
+        "fields": {
+            "type": "1933-D",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 29,
+        "fields": {
+            "type": "1970-S (small date)",
+            "point_value": "75",
+            "category": "semi-keydate",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 30,
+        "fields": {
+            "type": "1955 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 31,
+        "fields": {
+            "type": "1917 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 32,
+        "fields": {
+            "type": "1936 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 33,
+        "fields": {
+            "type": "1941 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 34,
+        "fields": {
+            "type": "1958 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 35,
+        "fields": {
+            "type": "1960 P&D SD/LD",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 36,
+        "fields": {
+            "type": "1962 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 37,
+        "fields": {
+            "type": "1963 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 38,
+        "fields": {
+            "type": "1964 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 39,
+        "fields": {
+            "type": "1966 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 40,
+        "fields": {
+            "type": "1969 S DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 41,
+        "fields": {
+            "type": "1970 S DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 42,
+        "fields": {
+            "type": "1971 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 43,
+        "fields": {
+            "type": "1972 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 44,
+        "fields": {
+            "type": "1983 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 45,
+        "fields": {
+            "type": "1983 DDR",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 46,
+        "fields": {
+            "type": "1984 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 47,
+        "fields": {
+            "type": "1994 DDR",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 48,
+        "fields": {
+            "type": "1995 P&D DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 49,
+        "fields": {
+            "type": "1997 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 50,
+        "fields": {
+            "type": "2011 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 51,
+        "fields": {
+            "type": "2014 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 52,
+        "fields": {
+            "type": "2015 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    },
+    {
+        "model": "coin.coinpoints",
+        "pk": 53,
+        "fields": {
+            "type": "2019 DDO",
+            "point_value": "200",
+            "category": "doubleddie",
+            "link": null
+        }
+    }
+]

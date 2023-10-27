@@ -1,0 +1,25 @@
+.finish-log-container {
+    margin-left: 180px;
+    margin-top: 18px;
+}
+
+
+.finish-log-title-box {
+    background-color: #5C8093;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 1px solid #25272c;
+    margin-top: 300px;
+}
+
+.finish-log-title {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    color: #67bace;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-right: 300px; */
+  
+  }

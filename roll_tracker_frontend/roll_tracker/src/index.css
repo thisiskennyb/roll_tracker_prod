@@ -1,0 +1,76 @@
+#log-in-out {
+  margin-left: auto;
+  color: #d59f48;
+  height:38px;
+  border-color: #67bace;
+}
+
+
+
+#main-logo {
+  height: 50px;
+ 
+  margin-right: auto;
+  margin-top: 25px;
+  
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #82abac;
+} 
+
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.app-container {
+  background-color: #82abac;
+}
+
+.css-9mgopn-MuiDivider-root {
+  background-color: #d59f48;
+}
+
+div.css-g40xub {
+  /* background-color: black; */
+  margin-top: 0;
+  height: 150px;
+}
+
+div.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #2a4f60;
+}
+
+#score-title {
+  color: #67bace;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 25px;
+}
+
+
+#view-button {
+  color: #d59f48;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+#dollar-input {
+  background-color: yellow;
+}
+
+fieldset.css-1hlg0x7-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: pink;
+}
+
+#add-coin-button {
+  background-color: green;
+}

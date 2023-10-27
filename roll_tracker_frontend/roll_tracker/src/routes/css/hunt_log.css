@@ -1,0 +1,114 @@
+.huntlog-container {
+    margin-left: 180px;
+    margin-top: 18px;
+    padding-bottom: 35px;
+}
+
+.points-container {
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-right: 500px;
+    margin-left: 500px
+
+}
+
+.points-item {
+  
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    color: #25272c;
+    margin-top: 10px;
+    
+
+}
+
+.score-item {
+    width: 80px;
+    border-radius: 15px;
+    border: 10px solid;
+    color: #25272c;
+    background-color: #67bace;
+    font-size: 50px;
+    width: 200px;
+}
+
+.dollar-input-container {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-color: #25272c;
+    justify-content: space-evenly;
+    background-color: #5C8093;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    
+    
+}
+
+/* .dollar-input-item {
+ border: solid;
+} */
+
+.enter-total {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    color: #25272c;
+}
+
+#arrow-icon {
+    font-size: 50px;
+    color: #d59f48;
+}
+
+.add-coin-container {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-color: #25272c;
+    justify-content: center;
+    background-color: #5C8093;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.add-coin-item {
+    height: 75px;
+    width: 400px;
+}
+
+.divider {
+    width: 1000px;
+    color:#d59f48;
+    border-color: #d59f48;
+    background-color: #d59f48;
+    height: 2px;
+}
+
+.add-coins-title {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    color: #25272c;
+}
+
+.add-button-container {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.log-display-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   
+    
+}
+
+.log-display-item {
+    margin-right: 300px;
+}

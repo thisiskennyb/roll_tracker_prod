@@ -1,0 +1,122 @@
+.home-container {
+    margin-left: 180px;
+    margin-top: 18px;
+    
+  }
+  
+  .home-title {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    color: #67bace;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-right: 300px; */
+  
+  }
+
+  .home-intro-box {
+    background-color: #5C8093;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    /* border-radius: 5%; */
+    /* border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%; */
+    border-radius: 10px;
+    border: 1px solid #25272c;
+  }
+
+
+  .coin-img {
+    height: 75px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px
+  }
+
+  .home-subtitle {
+    margin-top: 0;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color:#25272c;
+    
+
+  }
+
+  .features-container {
+    background-color: #5C8093;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    /* border-radius: 5%; */
+    /* border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%; */
+    border-radius: 10px;
+    width: 700px;
+    text-align: left;
+  }
+
+  .log-img {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .score-img {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .catalogue-img {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .feature-descrip {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 22px;
+    display: inline-block;
+    color: #25272c;
+   
+  }
+
+  .home-grid-container {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Spacing between the containers */
+    margin: 35px;
+  }
+  
+  .home-grid-item {
+    width: 47%; /* Adjust the width of each container as needed */
+    padding: 10px;
+    border: 1px solid #25272c; /* Add borders for visualization */
+    border-radius: 10px;
+    text-align: left;
+    background-color: #5C8093;
+  }
+
+  .intro-questions {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 22px;
+    /* display: inline-block; */
+    color: #25272c;
+    text-align: center;
+  }
+
+  #link-button {
+    margin-left: auto;
+    color: #d59f48;
+    height:38px;
+    border-color: #67bace;
+  }
+
+/* div.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: black;
+} */
+
+.button-container {
+  text-align: center;
+
+}
