@@ -8,7 +8,7 @@ import logging
 
 
 load_dotenv()
-print(os.getenv("API_KEY"))
+
 
 
 class PCGSCoinAPIView(APIView):

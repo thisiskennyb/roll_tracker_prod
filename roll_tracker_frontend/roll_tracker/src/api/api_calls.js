@@ -14,7 +14,8 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/accounts/signup",payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/accounts/signup`,payload)
     console.log(body, "API CALL")
     return body
   }
@@ -27,7 +28,8 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/accounts/get-token", payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/accounts/get-token`, payload)
     console.log(body.token)
     return body.token
   }
@@ -40,7 +42,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/years/`, payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/years/`, payload)
     return body
   }
 
@@ -52,7 +55,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/list/?year=${coin_year}`, payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/list/?year=${coin_year}`, payload)
     return body
   }
 
@@ -64,7 +68,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/list/?year=${coin_year}&mintmark=${mint_mark}`, payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/list/?year=${coin_year}&mintmark=${mint_mark}`, payload)
     return body
   }
 
@@ -76,7 +81,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/list/?year=${coin_year}&mintmark=${mint_mark}&comment=true`, payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/list/?year=${coin_year}&mintmark=${mint_mark}&comment=true`, payload)
     return body
   }
 
@@ -88,7 +94,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/${primaryKey}/`, payload)
+      const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/${primaryKey}/`, payload)
     return body
   }
 
@@ -101,7 +108,8 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/coincollection/add/", payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coincollection/add/`, payload)
     return body
   }
 
@@ -114,7 +122,8 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/coincollection/remove/", payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coincollection/remove/`, payload)
     return body
   }
 
@@ -127,7 +136,8 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/accounts/add-hunt-value/", payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/accounts/add-hunt-value/`, payload)
     return body
   }
 
@@ -140,7 +150,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coincollection/`, payload)
+      const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coincollection/`, payload)
     return body
   }
 
@@ -152,7 +163,8 @@ async function basicFetch(url, payload) {
         "Authorization" : `Token ${localStorage.getItem("token")}`
         // "Authorization": `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/accounts/user-profile/`, payload)
+      const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/accounts/user-profile/`, payload)
     return body
   }
 
@@ -164,7 +176,8 @@ async function basicFetch(url, payload) {
         "Content-Type": "application/json",
         "Authorization" : `Token ${localStorage.getItem("token")}`
       }  }
-    const body = await basicFetch(`http://localhost:8000/api/coin/pcgs/?cert=${cert_num}`, payload)
+      const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/coin/pcgs/?cert=${cert_num}`, payload)
     return body
   }
 
@@ -179,6 +192,7 @@ async function basicFetch(url, payload) {
       },
       body: JSON.stringify(context)
     }
-    const body = await basicFetch("http://localhost:8000/api/accounts/update-score/", payload)
+    const base_url = import.meta.env.VITE_BASE_URL
+    const body = await basicFetch(`http://${base_url}/api/accounts/update-score/`, payload)
     return body
   }
