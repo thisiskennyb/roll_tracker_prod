@@ -220,7 +220,13 @@ export default function MiniDrawer({handleLogout, userToken}) {
             </ListItemButton>
           </ListItem>
         ))} 
-
+          <ListItem disablePadding sx={{ color: '#67bace' }}>
+            <ListItemButton>
+              <ListItemIcon sx={{ color: '#d59f48', height: 415}}>
+              </ListItemIcon>
+              <ListItemText />
+            </ListItemButton>
+          </ListItem>
 
 
 

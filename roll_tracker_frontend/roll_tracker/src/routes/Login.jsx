@@ -18,10 +18,22 @@ import { Navigate } from 'react-router-dom';
 
 const defaultTheme = createTheme();
 
+// const useStyles = makeStyles({
+//   customTextField: {
+//     '& label.Mui-focused': {
+//       color: '#25272c', // Color when focused
+//     },
+//     '& .MuiInput-underline:after': {
+//       borderBottomColor: 'yellow', // Color when focused
+//     },
+//   },
+// });
+
 
 
 export default function Login({handleInputChange, formData, handleToken, handleOnClick, checked, signUp, handleSignUp, userToken}) {
 
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (checked) {
@@ -62,10 +74,10 @@ export default function Login({handleInputChange, formData, handleToken, handleO
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
+          <Avatar sx={{ m: 1, bgcolor: '#d59f48' }}>
+            <LockOutlinedIcon sx={{ bgcolor: '#d59f48'}} />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography component="h1" variant="h5" color="#25272c">
             Sign in
           </Typography>
           <Box onSubmit={handleSubmit} component="form" noValidate sx={{ mt: 1 }}>
@@ -79,6 +91,13 @@ export default function Login({handleInputChange, formData, handleToken, handleO
               autoComplete="username"
               autoFocus
               onChange={handleInputChange}
+              color="secondary"
+              InputLabelProps={{
+                style: { color: '#25272c'},
+                shrink: true, 
+              }}
+              InputProps={{
+                style: { color: '#25272c', backgroundColor: '#67bace' }}}
             />
             <TextField
               margin="normal"
@@ -90,22 +109,35 @@ export default function Login({handleInputChange, formData, handleToken, handleO
               id="password"
               autoComplete="current-password"
               onChange={handleInputChange}
+              color="secondary"
+            
+              InputLabelProps={{
+                style: { color: '#25272c'},
+                shrink: true, 
+              }}
+              InputProps={{
+                style: { color: '#25272c', backgroundColor: '#67bace' }}}
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Sign up"
+              control={<Checkbox value="remember" color="secondary"  />}
+              label={<span style={{ color: '#25272c' }}>Sign up</span>}
               onClick={handleOnClick}
             />
             <Button
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              sx={{ mt: 3, mb: 2, 
+                    bgcolor: '#2a4f60',
+                    '&:hover': {
+                      bgcolor: '#5C8093'
+                    }
+                  }}
               onClick={()=>handleSignUp()}
+              color="primary"
             >
               Sign In
             </Button>
-            <LoginSnack signUp={signUp} formData={formData}/>
           </Box>
         </Box>
       </Container>

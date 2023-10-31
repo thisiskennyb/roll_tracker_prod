@@ -87,7 +87,7 @@ DATABASES = {
 "NAME": "coin_db", 
 "USER": "postgres",
 "PASSWORD": "postgres",
-"HOST": "db",
+"HOST": "localhost",
 "PORT": 5432,
     }
 }
