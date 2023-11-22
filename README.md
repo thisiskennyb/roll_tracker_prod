@@ -31,7 +31,7 @@ To run this on your local machine please follow the instructions below:
 1. Run the command below from the projects root directory to allow execute permissions
 
 ```
-chmod 755 run-commpose-dev.sh
+chmod 755 run-compose-dev.sh
 ```
 
 2. Run the file that execute permissions were given to in the first step and pass in the API key from PCGS as the first parameter
