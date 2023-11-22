@@ -25,7 +25,7 @@ Pages:
 ### Installation
 To run this on your local machine please follow the instructions below:
 
-- This project is containerized using docker to reduce dependency issues so docker must be installed on your local machine. [Docker installation](https://www.docker.com/get-started/)
+- This project is containerized using docker to reduce dependency issues so docker must be installed and running your local machine. [Docker installation](https://www.docker.com/get-started/)
 - An API Key is required to access detailed coin information and can be acquired from the PCGS API documentation. [PCGS documentation](https://www.pcgs.com/publicapi/documentation)
 
 1. Run the command below from the projects root directory to allow execute permissions
