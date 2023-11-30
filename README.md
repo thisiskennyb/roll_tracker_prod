@@ -2,6 +2,8 @@
 
 This website was created to cater to the coin roll hunting community as a way to track their CRH journey. It allows the user to log each hunt, keep track of the total dollar value of coins searched, and earn points for each find.  After each logged hunt, users can navigate to their profile to view their total coin inventory and updated score.
 
+[Click here](http://3.144.70.231/) to visit Roll Tracker
+
 ![](ezgif.com-video-to-gif.gif)
 
 
